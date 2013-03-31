@@ -1,0 +1,13 @@
+snippet !record
+	!record {model: ${1:ir.model}, id: ${2:module.name}}:
+
+snippet !assert
+	!assert {model: ${1:ir.model}, id: ${2:module.name}}:
+
+
+snippet !python
+	!python {model: ${1:ir.model}}: |
+		${2:code}
+
+snippet ref
+	ref('${1:xml_id}')
